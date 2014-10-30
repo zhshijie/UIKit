@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182358EA19779AF300CD407B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 182358E919779AF300CD407B /* 1.jpg */; };
+		18B59F1E19779181008C1F78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B59F1D19779181008C1F78 /* main.m */; };
+		18B59F2119779181008C1F78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B59F2019779181008C1F78 /* AppDelegate.m */; };
+		18B59F2719779181008C1F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B59F2519779181008C1F78 /* Main.storyboard */; };
+		18B59F2919779181008C1F78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B59F2819779181008C1F78 /* Images.xcassets */; };
+		18B59F3519779181008C1F78 /* __12________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B59F3419779181008C1F78 /* __12________Tests.m */; };
+		18B59F401977942F008C1F78 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B59F3F1977942F008C1F78 /* mainViewController.m */; };
+		18B59F431977944A008C1F78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B59F421977944A008C1F78 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182358EB19779E0800CD407B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B59F1019779181008C1F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B59F1719779181008C1F78;
+			remoteInfo = "8.12最精巧的全屏切换";
+		};
+		182358ED19779E0800CD407B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B59F1019779181008C1F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B59F1719779181008C1F78;
+			remoteInfo = "8.12最精巧的全屏切换";
+		};
+		18B59F2F19779181008C1F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B59F1019779181008C1F78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B59F1719779181008C1F78;
+			remoteInfo = "8.12最精巧的全屏切换";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182358E919779AF300CD407B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		18B59F1819779181008C1F78 /* 8.12最精巧的全屏切换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8.12最精巧的全屏切换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B59F1C19779181008C1F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B59F1D19779181008C1F78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B59F1F19779181008C1F78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18B59F2019779181008C1F78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18B59F2619779181008C1F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B59F2819779181008C1F78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18B59F2E19779181008C1F78 /* 8.12最精巧的全屏切换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8.12最精巧的全屏切换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B59F3319779181008C1F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B59F3419779181008C1F78 /* __12________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__12________Tests.m"; sourceTree = "<group>"; };
+		18B59F3E1977942F008C1F78 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		18B59F3F1977942F008C1F78 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		18B59F411977944A008C1F78 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18B59F421977944A008C1F78 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B59F1519779181008C1F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B59F2B19779181008C1F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B59F0F19779181008C1F78 = {
+			isa = PBXGroup;
+			children = (
+				18B59F1A19779181008C1F78 /* 8.12最精巧的全屏切换 */,
+				18B59F3119779181008C1F78 /* 8.12最精巧的全屏切换Tests */,
+				18B59F1919779181008C1F78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B59F1919779181008C1F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B59F1819779181008C1F78 /* 8.12最精巧的全屏切换.app */,
+				18B59F2E19779181008C1F78 /* 8.12最精巧的全屏切换Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B59F1A19779181008C1F78 /* 8.12最精巧的全屏切换 */ = {
+			isa = PBXGroup;
+			children = (
+				18B59F1F19779181008C1F78 /* AppDelegate.h */,
+				18B59F2019779181008C1F78 /* AppDelegate.m */,
+				18B59F411977944A008C1F78 /* ViewController.h */,
+				18B59F421977944A008C1F78 /* ViewController.m */,
+				18B59F3E1977942F008C1F78 /* mainViewController.h */,
+				18B59F3F1977942F008C1F78 /* mainViewController.m */,
+				18B59F2519779181008C1F78 /* Main.storyboard */,
+				18B59F2819779181008C1F78 /* Images.xcassets */,
+				18B59F1B19779181008C1F78 /* Supporting Files */,
+			);
+			path = "8.12最精巧的全屏切换";
+			sourceTree = "<group>";
+		};
+		18B59F1B19779181008C1F78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182358E919779AF300CD407B /* 1.jpg */,
+				18B59F1C19779181008C1F78 /* Info.plist */,
+				18B59F1D19779181008C1F78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B59F3119779181008C1F78 /* 8.12最精巧的全屏切换Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18B59F3419779181008C1F78 /* __12________Tests.m */,
+				18B59F3219779181008C1F78 /* Supporting Files */,
+			);
+			path = "8.12最精巧的全屏切换Tests";
+			sourceTree = "<group>";
+		};
+		18B59F3219779181008C1F78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B59F3319779181008C1F78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B59F1719779181008C1F78 /* 8.12最精巧的全屏切换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B59F3819779181008C1F78 /* Build configuration list for PBXNativeTarget "8.12最精巧的全屏切换" */;
+			buildPhases = (
+				18B59F1419779181008C1F78 /* Sources */,
+				18B59F1519779181008C1F78 /* Frameworks */,
+				18B59F1619779181008C1F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8.12最精巧的全屏切换";
+			productName = "8.12最精巧的全屏切换";
+			productReference = 18B59F1819779181008C1F78 /* 8.12最精巧的全屏切换.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B59F2D19779181008C1F78 /* 8.12最精巧的全屏切换Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B59F3B19779181008C1F78 /* Build configuration list for PBXNativeTarget "8.12最精巧的全屏切换Tests" */;
+			buildPhases = (
+				18B59F2A19779181008C1F78 /* Sources */,
+				18B59F2B19779181008C1F78 /* Frameworks */,
+				18B59F2C19779181008C1F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B59F3019779181008C1F78 /* PBXTargetDependency */,
+				182358EC19779E0800CD407B /* PBXTargetDependency */,
+				182358EE19779E0800CD407B /* PBXTargetDependency */,
+			);
+			name = "8.12最精巧的全屏切换Tests";
+			productName = "8.12最精巧的全屏切换Tests";
+			productReference = 18B59F2E19779181008C1F78 /* 8.12最精巧的全屏切换Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B59F1019779181008C1F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					18B59F1719779181008C1F78 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					18B59F2D19779181008C1F78 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 18B59F1719779181008C1F78;
+					};
+				};
+			};
+			buildConfigurationList = 18B59F1319779181008C1F78 /* Build configuration list for PBXProject "8.12最精巧的全屏切换" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B59F0F19779181008C1F78;
+			productRefGroup = 18B59F1919779181008C1F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B59F1719779181008C1F78 /* 8.12最精巧的全屏切换 */,
+				18B59F2D19779181008C1F78 /* 8.12最精巧的全屏切换Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B59F1619779181008C1F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B59F2719779181008C1F78 /* Main.storyboard in Resources */,
+				182358EA19779AF300CD407B /* 1.jpg in Resources */,
+				18B59F2919779181008C1F78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B59F2C19779181008C1F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B59F1419779181008C1F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B59F2119779181008C1F78 /* AppDelegate.m in Sources */,
+				18B59F1E19779181008C1F78 /* main.m in Sources */,
+				18B59F431977944A008C1F78 /* ViewController.m in Sources */,
+				18B59F401977942F008C1F78 /* mainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B59F2A19779181008C1F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B59F3519779181008C1F78 /* __12________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182358EC19779E0800CD407B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B59F1719779181008C1F78 /* 8.12最精巧的全屏切换 */;
+			targetProxy = 182358EB19779E0800CD407B /* PBXContainerItemProxy */;
+		};
+		182358EE19779E0800CD407B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B59F1719779181008C1F78 /* 8.12最精巧的全屏切换 */;
+			targetProxy = 182358ED19779E0800CD407B /* PBXContainerItemProxy */;
+		};
+		18B59F3019779181008C1F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B59F1719779181008C1F78 /* 8.12最精巧的全屏切换 */;
+			targetProxy = 18B59F2F19779181008C1F78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B59F2519779181008C1F78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B59F2619779181008C1F78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B59F3619779181008C1F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18B59F3719779181008C1F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B59F3919779181008C1F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "8.12最精巧的全屏切换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B59F3A19779181008C1F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "8.12最精巧的全屏切换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18B59F3C19779181008C1F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/8.12最精巧的全屏切换.app/8.12最精巧的全屏切换";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "8.12最精巧的全屏切换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		18B59F3D19779181008C1F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/8.12最精巧的全屏切换.app/8.12最精巧的全屏切换";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "8.12最精巧的全屏切换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B59F1319779181008C1F78 /* Build configuration list for PBXProject "8.12最精巧的全屏切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B59F3619779181008C1F78 /* Debug */,
+				18B59F3719779181008C1F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B59F3819779181008C1F78 /* Build configuration list for PBXNativeTarget "8.12最精巧的全屏切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B59F3919779181008C1F78 /* Debug */,
+				18B59F3A19779181008C1F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B59F3B19779181008C1F78 /* Build configuration list for PBXNativeTarget "8.12最精巧的全屏切换Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B59F3C19779181008C1F78 /* Debug */,
+				18B59F3D19779181008C1F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B59F1019779181008C1F78 /* Project object */;
+}

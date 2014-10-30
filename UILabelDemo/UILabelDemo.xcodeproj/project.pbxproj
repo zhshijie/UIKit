@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186FD7C31940686E00CFE34E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186FD7C21940686D00CFE34E /* Foundation.framework */; };
+		186FD7C51940686E00CFE34E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186FD7C41940686E00CFE34E /* CoreGraphics.framework */; };
+		186FD7C71940686E00CFE34E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186FD7C61940686E00CFE34E /* UIKit.framework */; };
+		186FD7CD1940686E00CFE34E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186FD7CB1940686E00CFE34E /* InfoPlist.strings */; };
+		186FD7CF1940686E00CFE34E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FD7CE1940686E00CFE34E /* main.m */; };
+		186FD7D31940686E00CFE34E /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FD7D21940686E00CFE34E /* MyAppDelegate.m */; };
+		186FD7D51940686E00CFE34E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186FD7D41940686E00CFE34E /* Images.xcassets */; };
+		186FD7DC1940686E00CFE34E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186FD7DB1940686E00CFE34E /* XCTest.framework */; };
+		186FD7DD1940686E00CFE34E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186FD7C21940686D00CFE34E /* Foundation.framework */; };
+		186FD7DE1940686E00CFE34E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186FD7C61940686E00CFE34E /* UIKit.framework */; };
+		186FD7E61940686E00CFE34E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 186FD7E41940686E00CFE34E /* InfoPlist.strings */; };
+		186FD7E81940686E00CFE34E /* UILabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FD7E71940686E00CFE34E /* UILabelDemoTests.m */; };
+		186FD7F3194068A800CFE34E /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FD7F2194068A800CFE34E /* LabelViewController.m */; };
+		186FD7F619406F8700CFE34E /* drawDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 186FD7F519406F8700CFE34E /* drawDemo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		186FD7DF1940686E00CFE34E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186FD7B71940686D00CFE34E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186FD7BE1940686D00CFE34E;
+			remoteInfo = UILabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186FD7BF1940686D00CFE34E /* UILabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186FD7C21940686D00CFE34E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		186FD7C41940686E00CFE34E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		186FD7C61940686E00CFE34E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		186FD7CA1940686E00CFE34E /* UILabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UILabelDemo-Info.plist"; sourceTree = "<group>"; };
+		186FD7CC1940686E00CFE34E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		186FD7CE1940686E00CFE34E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		186FD7D01940686E00CFE34E /* UILabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		186FD7D11940686E00CFE34E /* MyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		186FD7D21940686E00CFE34E /* MyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
+		186FD7D41940686E00CFE34E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		186FD7DA1940686E00CFE34E /* UILabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186FD7DB1940686E00CFE34E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		186FD7E31940686E00CFE34E /* UILabelDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UILabelDemoTests-Info.plist"; sourceTree = "<group>"; };
+		186FD7E51940686E00CFE34E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		186FD7E71940686E00CFE34E /* UILabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelDemoTests.m; sourceTree = "<group>"; };
+		186FD7F1194068A800CFE34E /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		186FD7F2194068A800CFE34E /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		186FD7F419406F8700CFE34E /* drawDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawDemo.h; sourceTree = "<group>"; };
+		186FD7F519406F8700CFE34E /* drawDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawDemo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186FD7BC1940686D00CFE34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FD7C51940686E00CFE34E /* CoreGraphics.framework in Frameworks */,
+				186FD7C71940686E00CFE34E /* UIKit.framework in Frameworks */,
+				186FD7C31940686E00CFE34E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186FD7D71940686E00CFE34E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FD7DC1940686E00CFE34E /* XCTest.framework in Frameworks */,
+				186FD7DE1940686E00CFE34E /* UIKit.framework in Frameworks */,
+				186FD7DD1940686E00CFE34E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186FD7B61940686D00CFE34E = {
+			isa = PBXGroup;
+			children = (
+				186FD7C81940686E00CFE34E /* UILabelDemo */,
+				186FD7E11940686E00CFE34E /* UILabelDemoTests */,
+				186FD7C11940686D00CFE34E /* Frameworks */,
+				186FD7C01940686D00CFE34E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186FD7C01940686D00CFE34E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186FD7BF1940686D00CFE34E /* UILabelDemo.app */,
+				186FD7DA1940686E00CFE34E /* UILabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186FD7C11940686D00CFE34E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				186FD7C21940686D00CFE34E /* Foundation.framework */,
+				186FD7C41940686E00CFE34E /* CoreGraphics.framework */,
+				186FD7C61940686E00CFE34E /* UIKit.framework */,
+				186FD7DB1940686E00CFE34E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		186FD7C81940686E00CFE34E /* UILabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				186FD7D11940686E00CFE34E /* MyAppDelegate.h */,
+				186FD7D21940686E00CFE34E /* MyAppDelegate.m */,
+				186FD7F1194068A800CFE34E /* LabelViewController.h */,
+				186FD7F2194068A800CFE34E /* LabelViewController.m */,
+				186FD7F419406F8700CFE34E /* drawDemo.h */,
+				186FD7F519406F8700CFE34E /* drawDemo.m */,
+				186FD7D41940686E00CFE34E /* Images.xcassets */,
+				186FD7C91940686E00CFE34E /* Supporting Files */,
+			);
+			path = UILabelDemo;
+			sourceTree = "<group>";
+		};
+		186FD7C91940686E00CFE34E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186FD7CA1940686E00CFE34E /* UILabelDemo-Info.plist */,
+				186FD7CB1940686E00CFE34E /* InfoPlist.strings */,
+				186FD7CE1940686E00CFE34E /* main.m */,
+				186FD7D01940686E00CFE34E /* UILabelDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186FD7E11940686E00CFE34E /* UILabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				186FD7E71940686E00CFE34E /* UILabelDemoTests.m */,
+				186FD7E21940686E00CFE34E /* Supporting Files */,
+			);
+			path = UILabelDemoTests;
+			sourceTree = "<group>";
+		};
+		186FD7E21940686E00CFE34E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				186FD7E31940686E00CFE34E /* UILabelDemoTests-Info.plist */,
+				186FD7E41940686E00CFE34E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186FD7BE1940686D00CFE34E /* UILabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186FD7EB1940686E00CFE34E /* Build configuration list for PBXNativeTarget "UILabelDemo" */;
+			buildPhases = (
+				186FD7BB1940686D00CFE34E /* Sources */,
+				186FD7BC1940686D00CFE34E /* Frameworks */,
+				186FD7BD1940686D00CFE34E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UILabelDemo;
+			productName = UILabelDemo;
+			productReference = 186FD7BF1940686D00CFE34E /* UILabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186FD7D91940686E00CFE34E /* UILabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 186FD7EE1940686E00CFE34E /* Build configuration list for PBXNativeTarget "UILabelDemoTests" */;
+			buildPhases = (
+				186FD7D61940686E00CFE34E /* Sources */,
+				186FD7D71940686E00CFE34E /* Frameworks */,
+				186FD7D81940686E00CFE34E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				186FD7E01940686E00CFE34E /* PBXTargetDependency */,
+			);
+			name = UILabelDemoTests;
+			productName = UILabelDemoTests;
+			productReference = 186FD7DA1940686E00CFE34E /* UILabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186FD7B71940686D00CFE34E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = My;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					186FD7D91940686E00CFE34E = {
+						TestTargetID = 186FD7BE1940686D00CFE34E;
+					};
+				};
+			};
+			buildConfigurationList = 186FD7BA1940686D00CFE34E /* Build configuration list for PBXProject "UILabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 186FD7B61940686D00CFE34E;
+			productRefGroup = 186FD7C01940686D00CFE34E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186FD7BE1940686D00CFE34E /* UILabelDemo */,
+				186FD7D91940686E00CFE34E /* UILabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186FD7BD1940686D00CFE34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FD7CD1940686E00CFE34E /* InfoPlist.strings in Resources */,
+				186FD7D51940686E00CFE34E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186FD7D81940686E00CFE34E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FD7E61940686E00CFE34E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186FD7BB1940686D00CFE34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FD7F619406F8700CFE34E /* drawDemo.m in Sources */,
+				186FD7D31940686E00CFE34E /* MyAppDelegate.m in Sources */,
+				186FD7CF1940686E00CFE34E /* main.m in Sources */,
+				186FD7F3194068A800CFE34E /* LabelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186FD7D61940686E00CFE34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186FD7E81940686E00CFE34E /* UILabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		186FD7E01940686E00CFE34E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186FD7BE1940686D00CFE34E /* UILabelDemo */;
+			targetProxy = 186FD7DF1940686E00CFE34E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186FD7CB1940686E00CFE34E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186FD7CC1940686E00CFE34E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		186FD7E41940686E00CFE34E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186FD7E51940686E00CFE34E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		186FD7E91940686E00CFE34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		186FD7EA1940686E00CFE34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		186FD7EC1940686E00CFE34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UILabelDemo/UILabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "UILabelDemo/UILabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		186FD7ED1940686E00CFE34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UILabelDemo/UILabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "UILabelDemo/UILabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		186FD7EF1940686E00CFE34E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UILabelDemo.app/UILabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UILabelDemo/UILabelDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UILabelDemoTests/UILabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		186FD7F01940686E00CFE34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UILabelDemo.app/UILabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UILabelDemo/UILabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "UILabelDemoTests/UILabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186FD7BA1940686D00CFE34E /* Build configuration list for PBXProject "UILabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186FD7E91940686E00CFE34E /* Debug */,
+				186FD7EA1940686E00CFE34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		186FD7EB1940686E00CFE34E /* Build configuration list for PBXNativeTarget "UILabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186FD7EC1940686E00CFE34E /* Debug */,
+				186FD7ED1940686E00CFE34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		186FD7EE1940686E00CFE34E /* Build configuration list for PBXNativeTarget "UILabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186FD7EF1940686E00CFE34E /* Debug */,
+				186FD7F01940686E00CFE34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186FD7B71940686D00CFE34E /* Project object */;
+}

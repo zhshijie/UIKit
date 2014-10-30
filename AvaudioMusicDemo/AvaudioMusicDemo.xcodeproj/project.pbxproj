@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1839B0EF194A0FAA0042C993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B0EE194A0FAA0042C993 /* main.m */; };
+		1839B0F2194A0FAA0042C993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B0F1194A0FAA0042C993 /* AppDelegate.m */; };
+		1839B0F4194A0FAA0042C993 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1839B0F3194A0FAA0042C993 /* Images.xcassets */; };
+		1839B100194A0FAA0042C993 /* AvaudioMusicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B0FF194A0FAA0042C993 /* AvaudioMusicDemoTests.m */; };
+		1839B10A194A0FCB0042C993 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839B109194A0FCB0042C993 /* AVFoundation.framework */; };
+		1839B10E194A0FDF0042C993 /* AvaudioMusciViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839B10C194A0FDF0042C993 /* AvaudioMusciViewController.m */; };
+		1839B10F194A0FDF0042C993 /* AvaudioMusciViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1839B10D194A0FDF0042C993 /* AvaudioMusciViewController.xib */; };
+		1839B111194A157B0042C993 /* 爱情转移.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1839B110194A157B0042C993 /* 爱情转移.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1839B0FA194A0FAA0042C993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1839B0E1194A0FAA0042C993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1839B0E8194A0FAA0042C993;
+			remoteInfo = AvaudioMusicDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1839B0E9194A0FAA0042C993 /* AvaudioMusicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvaudioMusicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1839B0ED194A0FAA0042C993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839B0EE194A0FAA0042C993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1839B0F0194A0FAA0042C993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1839B0F1194A0FAA0042C993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1839B0F3194A0FAA0042C993 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1839B0F9194A0FAA0042C993 /* AvaudioMusicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvaudioMusicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1839B0FE194A0FAA0042C993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839B0FF194A0FAA0042C993 /* AvaudioMusicDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvaudioMusicDemoTests.m; sourceTree = "<group>"; };
+		1839B109194A0FCB0042C993 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1839B10B194A0FDF0042C993 /* AvaudioMusciViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvaudioMusciViewController.h; sourceTree = "<group>"; };
+		1839B10C194A0FDF0042C993 /* AvaudioMusciViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvaudioMusciViewController.m; sourceTree = "<group>"; };
+		1839B10D194A0FDF0042C993 /* AvaudioMusciViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvaudioMusciViewController.xib; sourceTree = "<group>"; };
+		1839B110194A157B0042C993 /* 爱情转移.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爱情转移.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1839B0E6194A0FAA0042C993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839B10A194A0FCB0042C993 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839B0F6194A0FAA0042C993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1839B0E0194A0FAA0042C993 = {
+			isa = PBXGroup;
+			children = (
+				1839B109194A0FCB0042C993 /* AVFoundation.framework */,
+				1839B0EB194A0FAA0042C993 /* AvaudioMusicDemo */,
+				1839B0FC194A0FAA0042C993 /* AvaudioMusicDemoTests */,
+				1839B0EA194A0FAA0042C993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1839B0EA194A0FAA0042C993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1839B0E9194A0FAA0042C993 /* AvaudioMusicDemo.app */,
+				1839B0F9194A0FAA0042C993 /* AvaudioMusicDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1839B0EB194A0FAA0042C993 /* AvaudioMusicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1839B0F0194A0FAA0042C993 /* AppDelegate.h */,
+				1839B0F1194A0FAA0042C993 /* AppDelegate.m */,
+				1839B10B194A0FDF0042C993 /* AvaudioMusciViewController.h */,
+				1839B10C194A0FDF0042C993 /* AvaudioMusciViewController.m */,
+				1839B10D194A0FDF0042C993 /* AvaudioMusciViewController.xib */,
+				1839B110194A157B0042C993 /* 爱情转移.mp3 */,
+				1839B0F3194A0FAA0042C993 /* Images.xcassets */,
+				1839B0EC194A0FAA0042C993 /* Supporting Files */,
+			);
+			path = AvaudioMusicDemo;
+			sourceTree = "<group>";
+		};
+		1839B0EC194A0FAA0042C993 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1839B0ED194A0FAA0042C993 /* Info.plist */,
+				1839B0EE194A0FAA0042C993 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1839B0FC194A0FAA0042C993 /* AvaudioMusicDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1839B0FF194A0FAA0042C993 /* AvaudioMusicDemoTests.m */,
+				1839B0FD194A0FAA0042C993 /* Supporting Files */,
+			);
+			path = AvaudioMusicDemoTests;
+			sourceTree = "<group>";
+		};
+		1839B0FD194A0FAA0042C993 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1839B0FE194A0FAA0042C993 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1839B0E8194A0FAA0042C993 /* AvaudioMusicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1839B103194A0FAA0042C993 /* Build configuration list for PBXNativeTarget "AvaudioMusicDemo" */;
+			buildPhases = (
+				1839B0E5194A0FAA0042C993 /* Sources */,
+				1839B0E6194A0FAA0042C993 /* Frameworks */,
+				1839B0E7194A0FAA0042C993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvaudioMusicDemo;
+			productName = AvaudioMusicDemo;
+			productReference = 1839B0E9194A0FAA0042C993 /* AvaudioMusicDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1839B0F8194A0FAA0042C993 /* AvaudioMusicDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1839B106194A0FAA0042C993 /* Build configuration list for PBXNativeTarget "AvaudioMusicDemoTests" */;
+			buildPhases = (
+				1839B0F5194A0FAA0042C993 /* Sources */,
+				1839B0F6194A0FAA0042C993 /* Frameworks */,
+				1839B0F7194A0FAA0042C993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1839B0FB194A0FAA0042C993 /* PBXTargetDependency */,
+			);
+			name = AvaudioMusicDemoTests;
+			productName = AvaudioMusicDemoTests;
+			productReference = 1839B0F9194A0FAA0042C993 /* AvaudioMusicDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1839B0E1194A0FAA0042C993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					1839B0E8194A0FAA0042C993 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1839B0F8194A0FAA0042C993 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1839B0E8194A0FAA0042C993;
+					};
+				};
+			};
+			buildConfigurationList = 1839B0E4194A0FAA0042C993 /* Build configuration list for PBXProject "AvaudioMusicDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1839B0E0194A0FAA0042C993;
+			productRefGroup = 1839B0EA194A0FAA0042C993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1839B0E8194A0FAA0042C993 /* AvaudioMusicDemo */,
+				1839B0F8194A0FAA0042C993 /* AvaudioMusicDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1839B0E7194A0FAA0042C993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839B111194A157B0042C993 /* 爱情转移.mp3 in Resources */,
+				1839B10F194A0FDF0042C993 /* AvaudioMusciViewController.xib in Resources */,
+				1839B0F4194A0FAA0042C993 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839B0F7194A0FAA0042C993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1839B0E5194A0FAA0042C993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839B10E194A0FDF0042C993 /* AvaudioMusciViewController.m in Sources */,
+				1839B0F2194A0FAA0042C993 /* AppDelegate.m in Sources */,
+				1839B0EF194A0FAA0042C993 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1839B0F5194A0FAA0042C993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839B100194A0FAA0042C993 /* AvaudioMusicDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1839B0FB194A0FAA0042C993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1839B0E8194A0FAA0042C993 /* AvaudioMusicDemo */;
+			targetProxy = 1839B0FA194A0FAA0042C993 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1839B101194A0FAA0042C993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1839B102194A0FAA0042C993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1839B104194A0FAA0042C993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AvaudioMusicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1839B105194A0FAA0042C993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AvaudioMusicDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1839B107194A0FAA0042C993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvaudioMusicDemo.app/AvaudioMusicDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AvaudioMusicDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1839B108194A0FAA0042C993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvaudioMusicDemo.app/AvaudioMusicDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AvaudioMusicDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1839B0E4194A0FAA0042C993 /* Build configuration list for PBXProject "AvaudioMusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839B101194A0FAA0042C993 /* Debug */,
+				1839B102194A0FAA0042C993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1839B103194A0FAA0042C993 /* Build configuration list for PBXNativeTarget "AvaudioMusicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839B104194A0FAA0042C993 /* Debug */,
+				1839B105194A0FAA0042C993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1839B106194A0FAA0042C993 /* Build configuration list for PBXNativeTarget "AvaudioMusicDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839B107194A0FAA0042C993 /* Debug */,
+				1839B108194A0FAA0042C993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1839B0E1194A0FAA0042C993 /* Project object */;
+}

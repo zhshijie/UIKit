@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E430E8195086CB004F8F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E430E7195086CB004F8F22 /* Foundation.framework */; };
+		18E430EA195086CB004F8F22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E430E9195086CB004F8F22 /* CoreGraphics.framework */; };
+		18E430EC195086CB004F8F22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E430EB195086CB004F8F22 /* UIKit.framework */; };
+		18E430F2195086CB004F8F22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E430F0195086CB004F8F22 /* InfoPlist.strings */; };
+		18E430F4195086CB004F8F22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E430F3195086CB004F8F22 /* main.m */; };
+		18E430F8195086CB004F8F22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E430F7195086CB004F8F22 /* AppDelegate.m */; };
+		18E430FA195086CB004F8F22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E430F9195086CB004F8F22 /* Images.xcassets */; };
+		18E43101195086CB004F8F22 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E43100195086CB004F8F22 /* XCTest.framework */; };
+		18E43102195086CB004F8F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E430E7195086CB004F8F22 /* Foundation.framework */; };
+		18E43103195086CB004F8F22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E430EB195086CB004F8F22 /* UIKit.framework */; };
+		18E4310B195086CB004F8F22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E43109195086CB004F8F22 /* InfoPlist.strings */; };
+		18E4310D195086CB004F8F22 /* GoolgeMapGeocoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4310C195086CB004F8F22 /* GoolgeMapGeocoderTests.m */; };
+		18E4311819508702004F8F22 /* GoogleMacGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4311719508702004F8F22 /* GoogleMacGeocoder.m */; };
+		18E4313119508ABA004F8F22 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4311B19508ABA004F8F22 /* ASIAuthenticationDialog.m */; };
+		18E4313219508ABA004F8F22 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4311E19508ABA004F8F22 /* ASIDataCompressor.m */; };
+		18E4313319508ABA004F8F22 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4312019508ABA004F8F22 /* ASIDataDecompressor.m */; };
+		18E4313419508ABA004F8F22 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4312219508ABA004F8F22 /* ASIDownloadCache.m */; };
+		18E4313519508ABA004F8F22 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4312419508ABA004F8F22 /* ASIFormDataRequest.m */; };
+		18E4313619508ABA004F8F22 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4312619508ABA004F8F22 /* ASIHTTPRequest.m */; };
+		18E4313719508ABA004F8F22 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4312A19508ABA004F8F22 /* ASIInputStream.m */; };
+		18E4313819508ABA004F8F22 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4312C19508ABA004F8F22 /* ASINetworkQueue.m */; };
+		18E4313919508ABA004F8F22 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4313019508ABA004F8F22 /* Reachability.m */; };
+		18E4313B19508DCD004F8F22 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E4313A19508DCD004F8F22 /* CFNetwork.framework */; };
+		18E4313D19508DD5004F8F22 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E4313C19508DD5004F8F22 /* SystemConfiguration.framework */; };
+		18E4313F19508DE4004F8F22 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E4313E19508DE4004F8F22 /* MobileCoreServices.framework */; };
+		18E4314119508DF5004F8F22 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E4314019508DF5004F8F22 /* libz.1.1.3.dylib */; };
+		18E4314319508DFE004F8F22 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E4314219508DFE004F8F22 /* libxml2.2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E43104195086CB004F8F22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E430DC195086CB004F8F22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E430E3195086CB004F8F22;
+			remoteInfo = GoolgeMapGeocoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E430E4195086CB004F8F22 /* GoolgeMapGeocoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoolgeMapGeocoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E430E7195086CB004F8F22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18E430E9195086CB004F8F22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18E430EB195086CB004F8F22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18E430EF195086CB004F8F22 /* GoolgeMapGeocoder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoolgeMapGeocoder-Info.plist"; sourceTree = "<group>"; };
+		18E430F1195086CB004F8F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18E430F3195086CB004F8F22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E430F5195086CB004F8F22 /* GoolgeMapGeocoder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoolgeMapGeocoder-Prefix.pch"; sourceTree = "<group>"; };
+		18E430F6195086CB004F8F22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E430F7195086CB004F8F22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E430F9195086CB004F8F22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18E430FF195086CB004F8F22 /* GoolgeMapGeocoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoolgeMapGeocoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E43100195086CB004F8F22 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18E43108195086CB004F8F22 /* GoolgeMapGeocoderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoolgeMapGeocoderTests-Info.plist"; sourceTree = "<group>"; };
+		18E4310A195086CB004F8F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18E4310C195086CB004F8F22 /* GoolgeMapGeocoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoolgeMapGeocoderTests.m; sourceTree = "<group>"; };
+		18E4311619508702004F8F22 /* GoogleMacGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMacGeocoder.h; sourceTree = "<group>"; };
+		18E4311719508702004F8F22 /* GoogleMacGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMacGeocoder.m; sourceTree = "<group>"; };
+		18E4311A19508ABA004F8F22 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		18E4311B19508ABA004F8F22 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		18E4311C19508ABA004F8F22 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		18E4311D19508ABA004F8F22 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		18E4311E19508ABA004F8F22 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		18E4311F19508ABA004F8F22 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		18E4312019508ABA004F8F22 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		18E4312119508ABA004F8F22 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		18E4312219508ABA004F8F22 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		18E4312319508ABA004F8F22 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		18E4312419508ABA004F8F22 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		18E4312519508ABA004F8F22 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		18E4312619508ABA004F8F22 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		18E4312719508ABA004F8F22 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		18E4312819508ABA004F8F22 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		18E4312919508ABA004F8F22 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		18E4312A19508ABA004F8F22 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		18E4312B19508ABA004F8F22 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		18E4312C19508ABA004F8F22 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		18E4312D19508ABA004F8F22 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		18E4312F19508ABA004F8F22 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		18E4313019508ABA004F8F22 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		18E4313A19508DCD004F8F22 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18E4313C19508DD5004F8F22 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18E4313E19508DE4004F8F22 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18E4314019508DF5004F8F22 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		18E4314219508DFE004F8F22 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E430E1195086CB004F8F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4314319508DFE004F8F22 /* libxml2.2.dylib in Frameworks */,
+				18E4314119508DF5004F8F22 /* libz.1.1.3.dylib in Frameworks */,
+				18E4313F19508DE4004F8F22 /* MobileCoreServices.framework in Frameworks */,
+				18E4313D19508DD5004F8F22 /* SystemConfiguration.framework in Frameworks */,
+				18E4313B19508DCD004F8F22 /* CFNetwork.framework in Frameworks */,
+				18E430EA195086CB004F8F22 /* CoreGraphics.framework in Frameworks */,
+				18E430EC195086CB004F8F22 /* UIKit.framework in Frameworks */,
+				18E430E8195086CB004F8F22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E430FC195086CB004F8F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E43101195086CB004F8F22 /* XCTest.framework in Frameworks */,
+				18E43103195086CB004F8F22 /* UIKit.framework in Frameworks */,
+				18E43102195086CB004F8F22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E430DB195086CB004F8F22 = {
+			isa = PBXGroup;
+			children = (
+				18E430ED195086CB004F8F22 /* GoolgeMapGeocoder */,
+				18E43106195086CB004F8F22 /* GoolgeMapGeocoderTests */,
+				18E430E6195086CB004F8F22 /* Frameworks */,
+				18E430E5195086CB004F8F22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E430E5195086CB004F8F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E430E4195086CB004F8F22 /* GoolgeMapGeocoder.app */,
+				18E430FF195086CB004F8F22 /* GoolgeMapGeocoderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E430E6195086CB004F8F22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E4314219508DFE004F8F22 /* libxml2.2.dylib */,
+				18E4314019508DF5004F8F22 /* libz.1.1.3.dylib */,
+				18E4313E19508DE4004F8F22 /* MobileCoreServices.framework */,
+				18E4313C19508DD5004F8F22 /* SystemConfiguration.framework */,
+				18E4313A19508DCD004F8F22 /* CFNetwork.framework */,
+				18E430E7195086CB004F8F22 /* Foundation.framework */,
+				18E430E9195086CB004F8F22 /* CoreGraphics.framework */,
+				18E430EB195086CB004F8F22 /* UIKit.framework */,
+				18E43100195086CB004F8F22 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18E430ED195086CB004F8F22 /* GoolgeMapGeocoder */ = {
+			isa = PBXGroup;
+			children = (
+				18E430F6195086CB004F8F22 /* AppDelegate.h */,
+				18E430F7195086CB004F8F22 /* AppDelegate.m */,
+				18E4311619508702004F8F22 /* GoogleMacGeocoder.h */,
+				18E4311719508702004F8F22 /* GoogleMacGeocoder.m */,
+				18E4311919508ABA004F8F22 /* ASIHttpRequest */,
+				18E430F9195086CB004F8F22 /* Images.xcassets */,
+				18E430EE195086CB004F8F22 /* Supporting Files */,
+			);
+			path = GoolgeMapGeocoder;
+			sourceTree = "<group>";
+		};
+		18E430EE195086CB004F8F22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E430EF195086CB004F8F22 /* GoolgeMapGeocoder-Info.plist */,
+				18E430F0195086CB004F8F22 /* InfoPlist.strings */,
+				18E430F3195086CB004F8F22 /* main.m */,
+				18E430F5195086CB004F8F22 /* GoolgeMapGeocoder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E43106195086CB004F8F22 /* GoolgeMapGeocoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E4310C195086CB004F8F22 /* GoolgeMapGeocoderTests.m */,
+				18E43107195086CB004F8F22 /* Supporting Files */,
+			);
+			path = GoolgeMapGeocoderTests;
+			sourceTree = "<group>";
+		};
+		18E43107195086CB004F8F22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E43108195086CB004F8F22 /* GoolgeMapGeocoderTests-Info.plist */,
+				18E43109195086CB004F8F22 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E4311919508ABA004F8F22 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				18E4311A19508ABA004F8F22 /* ASIAuthenticationDialog.h */,
+				18E4311B19508ABA004F8F22 /* ASIAuthenticationDialog.m */,
+				18E4311C19508ABA004F8F22 /* ASICacheDelegate.h */,
+				18E4311D19508ABA004F8F22 /* ASIDataCompressor.h */,
+				18E4311E19508ABA004F8F22 /* ASIDataCompressor.m */,
+				18E4311F19508ABA004F8F22 /* ASIDataDecompressor.h */,
+				18E4312019508ABA004F8F22 /* ASIDataDecompressor.m */,
+				18E4312119508ABA004F8F22 /* ASIDownloadCache.h */,
+				18E4312219508ABA004F8F22 /* ASIDownloadCache.m */,
+				18E4312319508ABA004F8F22 /* ASIFormDataRequest.h */,
+				18E4312419508ABA004F8F22 /* ASIFormDataRequest.m */,
+				18E4312519508ABA004F8F22 /* ASIHTTPRequest.h */,
+				18E4312619508ABA004F8F22 /* ASIHTTPRequest.m */,
+				18E4312719508ABA004F8F22 /* ASIHTTPRequestConfig.h */,
+				18E4312819508ABA004F8F22 /* ASIHTTPRequestDelegate.h */,
+				18E4312919508ABA004F8F22 /* ASIInputStream.h */,
+				18E4312A19508ABA004F8F22 /* ASIInputStream.m */,
+				18E4312B19508ABA004F8F22 /* ASINetworkQueue.h */,
+				18E4312C19508ABA004F8F22 /* ASINetworkQueue.m */,
+				18E4312D19508ABA004F8F22 /* ASIProgressDelegate.h */,
+				18E4312E19508ABA004F8F22 /* Reachability */,
+			);
+			name = ASIHttpRequest;
+			path = "../../../../开源框架/ASIHttpRequest";
+			sourceTree = "<group>";
+		};
+		18E4312E19508ABA004F8F22 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				18E4312F19508ABA004F8F22 /* Reachability.h */,
+				18E4313019508ABA004F8F22 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E430E3195086CB004F8F22 /* GoolgeMapGeocoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E43110195086CB004F8F22 /* Build configuration list for PBXNativeTarget "GoolgeMapGeocoder" */;
+			buildPhases = (
+				18E430E0195086CB004F8F22 /* Sources */,
+				18E430E1195086CB004F8F22 /* Frameworks */,
+				18E430E2195086CB004F8F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoolgeMapGeocoder;
+			productName = GoolgeMapGeocoder;
+			productReference = 18E430E4195086CB004F8F22 /* GoolgeMapGeocoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E430FE195086CB004F8F22 /* GoolgeMapGeocoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E43113195086CB004F8F22 /* Build configuration list for PBXNativeTarget "GoolgeMapGeocoderTests" */;
+			buildPhases = (
+				18E430FB195086CB004F8F22 /* Sources */,
+				18E430FC195086CB004F8F22 /* Frameworks */,
+				18E430FD195086CB004F8F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E43105195086CB004F8F22 /* PBXTargetDependency */,
+			);
+			name = GoolgeMapGeocoderTests;
+			productName = GoolgeMapGeocoderTests;
+			productReference = 18E430FF195086CB004F8F22 /* GoolgeMapGeocoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E430DC195086CB004F8F22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					18E430FE195086CB004F8F22 = {
+						TestTargetID = 18E430E3195086CB004F8F22;
+					};
+				};
+			};
+			buildConfigurationList = 18E430DF195086CB004F8F22 /* Build configuration list for PBXProject "GoolgeMapGeocoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18E430DB195086CB004F8F22;
+			productRefGroup = 18E430E5195086CB004F8F22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E430E3195086CB004F8F22 /* GoolgeMapGeocoder */,
+				18E430FE195086CB004F8F22 /* GoolgeMapGeocoderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E430E2195086CB004F8F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E430F2195086CB004F8F22 /* InfoPlist.strings in Resources */,
+				18E430FA195086CB004F8F22 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E430FD195086CB004F8F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4310B195086CB004F8F22 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E430E0195086CB004F8F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4313219508ABA004F8F22 /* ASIDataCompressor.m in Sources */,
+				18E4311819508702004F8F22 /* GoogleMacGeocoder.m in Sources */,
+				18E4313619508ABA004F8F22 /* ASIHTTPRequest.m in Sources */,
+				18E4313119508ABA004F8F22 /* ASIAuthenticationDialog.m in Sources */,
+				18E4313519508ABA004F8F22 /* ASIFormDataRequest.m in Sources */,
+				18E430F8195086CB004F8F22 /* AppDelegate.m in Sources */,
+				18E4313719508ABA004F8F22 /* ASIInputStream.m in Sources */,
+				18E430F4195086CB004F8F22 /* main.m in Sources */,
+				18E4313819508ABA004F8F22 /* ASINetworkQueue.m in Sources */,
+				18E4313319508ABA004F8F22 /* ASIDataDecompressor.m in Sources */,
+				18E4313919508ABA004F8F22 /* Reachability.m in Sources */,
+				18E4313419508ABA004F8F22 /* ASIDownloadCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E430FB195086CB004F8F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4310D195086CB004F8F22 /* GoolgeMapGeocoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E43105195086CB004F8F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E430E3195086CB004F8F22 /* GoolgeMapGeocoder */;
+			targetProxy = 18E43104195086CB004F8F22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E430F0195086CB004F8F22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E430F1195086CB004F8F22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18E43109195086CB004F8F22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E4310A195086CB004F8F22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E4310E195086CB004F8F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E4310F195086CB004F8F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E43111195086CB004F8F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoolgeMapGeocoder/GoolgeMapGeocoder-Prefix.pch";
+				INFOPLIST_FILE = "GoolgeMapGeocoder/GoolgeMapGeocoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18E43112195086CB004F8F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoolgeMapGeocoder/GoolgeMapGeocoder-Prefix.pch";
+				INFOPLIST_FILE = "GoolgeMapGeocoder/GoolgeMapGeocoder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18E43114195086CB004F8F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoolgeMapGeocoder.app/GoolgeMapGeocoder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoolgeMapGeocoder/GoolgeMapGeocoder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoolgeMapGeocoderTests/GoolgeMapGeocoderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18E43115195086CB004F8F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoolgeMapGeocoder.app/GoolgeMapGeocoder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoolgeMapGeocoder/GoolgeMapGeocoder-Prefix.pch";
+				INFOPLIST_FILE = "GoolgeMapGeocoderTests/GoolgeMapGeocoderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E430DF195086CB004F8F22 /* Build configuration list for PBXProject "GoolgeMapGeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E4310E195086CB004F8F22 /* Debug */,
+				18E4310F195086CB004F8F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E43110195086CB004F8F22 /* Build configuration list for PBXNativeTarget "GoolgeMapGeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E43111195086CB004F8F22 /* Debug */,
+				18E43112195086CB004F8F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E43113195086CB004F8F22 /* Build configuration list for PBXNativeTarget "GoolgeMapGeocoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E43114195086CB004F8F22 /* Debug */,
+				18E43115195086CB004F8F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E430DC195086CB004F8F22 /* Project object */;
+}

@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C6F29C194E091D00EBE5D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C6F29B194E091D00EBE5D2 /* Foundation.framework */; };
+		18C6F29E194E091D00EBE5D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C6F29D194E091D00EBE5D2 /* CoreGraphics.framework */; };
+		18C6F2A0194E091D00EBE5D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C6F29F194E091D00EBE5D2 /* UIKit.framework */; };
+		18C6F2A6194E091D00EBE5D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F2A4194E091D00EBE5D2 /* InfoPlist.strings */; };
+		18C6F2A8194E091D00EBE5D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F2A7194E091D00EBE5D2 /* main.m */; };
+		18C6F2AC194E091D00EBE5D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F2AB194E091D00EBE5D2 /* AppDelegate.m */; };
+		18C6F2AE194E091D00EBE5D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F2AD194E091D00EBE5D2 /* Images.xcassets */; };
+		18C6F2B5194E091D00EBE5D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C6F2B4194E091D00EBE5D2 /* XCTest.framework */; };
+		18C6F2B6194E091D00EBE5D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C6F29B194E091D00EBE5D2 /* Foundation.framework */; };
+		18C6F2B7194E091D00EBE5D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C6F29F194E091D00EBE5D2 /* UIKit.framework */; };
+		18C6F2BF194E091D00EBE5D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F2BD194E091D00EBE5D2 /* InfoPlist.strings */; };
+		18C6F2C1194E091D00EBE5D2 /* SJDataServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F2C0194E091D00EBE5D2 /* SJDataServerTests.m */; };
+		18C6F2CC194E098700EBE5D2 /* SJRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F2CB194E098700EBE5D2 /* SJRequest.m */; };
+		18C6F2CF194E0C5700EBE5D2 /* SJDataServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F2CE194E0C5700EBE5D2 /* SJDataServer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C6F2B8194E091D00EBE5D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C6F290194E091D00EBE5D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C6F297194E091D00EBE5D2;
+			remoteInfo = SJDataServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C6F298194E091D00EBE5D2 /* SJDataServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJDataServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C6F29B194E091D00EBE5D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18C6F29D194E091D00EBE5D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18C6F29F194E091D00EBE5D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18C6F2A3194E091D00EBE5D2 /* SJDataServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SJDataServer-Info.plist"; sourceTree = "<group>"; };
+		18C6F2A5194E091D00EBE5D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C6F2A7194E091D00EBE5D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C6F2A9194E091D00EBE5D2 /* SJDataServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SJDataServer-Prefix.pch"; sourceTree = "<group>"; };
+		18C6F2AA194E091D00EBE5D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C6F2AB194E091D00EBE5D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C6F2AD194E091D00EBE5D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18C6F2B3194E091D00EBE5D2 /* SJDataServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJDataServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C6F2B4194E091D00EBE5D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18C6F2BC194E091D00EBE5D2 /* SJDataServerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SJDataServerTests-Info.plist"; sourceTree = "<group>"; };
+		18C6F2BE194E091D00EBE5D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18C6F2C0194E091D00EBE5D2 /* SJDataServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJDataServerTests.m; sourceTree = "<group>"; };
+		18C6F2CA194E098700EBE5D2 /* SJRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRequest.h; sourceTree = "<group>"; };
+		18C6F2CB194E098700EBE5D2 /* SJRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRequest.m; sourceTree = "<group>"; };
+		18C6F2CD194E0C5700EBE5D2 /* SJDataServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJDataServer.h; sourceTree = "<group>"; };
+		18C6F2CE194E0C5700EBE5D2 /* SJDataServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJDataServer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C6F295194E091D00EBE5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C6F29E194E091D00EBE5D2 /* CoreGraphics.framework in Frameworks */,
+				18C6F2A0194E091D00EBE5D2 /* UIKit.framework in Frameworks */,
+				18C6F29C194E091D00EBE5D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C6F2B0194E091D00EBE5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C6F2B5194E091D00EBE5D2 /* XCTest.framework in Frameworks */,
+				18C6F2B7194E091D00EBE5D2 /* UIKit.framework in Frameworks */,
+				18C6F2B6194E091D00EBE5D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C6F28F194E091D00EBE5D2 = {
+			isa = PBXGroup;
+			children = (
+				18C6F2A1194E091D00EBE5D2 /* SJDataServer */,
+				18C6F2BA194E091D00EBE5D2 /* SJDataServerTests */,
+				18C6F29A194E091D00EBE5D2 /* Frameworks */,
+				18C6F299194E091D00EBE5D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C6F299194E091D00EBE5D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F298194E091D00EBE5D2 /* SJDataServer.app */,
+				18C6F2B3194E091D00EBE5D2 /* SJDataServerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C6F29A194E091D00EBE5D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F29B194E091D00EBE5D2 /* Foundation.framework */,
+				18C6F29D194E091D00EBE5D2 /* CoreGraphics.framework */,
+				18C6F29F194E091D00EBE5D2 /* UIKit.framework */,
+				18C6F2B4194E091D00EBE5D2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C6F2A1194E091D00EBE5D2 /* SJDataServer */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F2AA194E091D00EBE5D2 /* AppDelegate.h */,
+				18C6F2AB194E091D00EBE5D2 /* AppDelegate.m */,
+				18C6F2CA194E098700EBE5D2 /* SJRequest.h */,
+				18C6F2CB194E098700EBE5D2 /* SJRequest.m */,
+				18C6F2CD194E0C5700EBE5D2 /* SJDataServer.h */,
+				18C6F2CE194E0C5700EBE5D2 /* SJDataServer.m */,
+				18C6F2AD194E091D00EBE5D2 /* Images.xcassets */,
+				18C6F2A2194E091D00EBE5D2 /* Supporting Files */,
+			);
+			path = SJDataServer;
+			sourceTree = "<group>";
+		};
+		18C6F2A2194E091D00EBE5D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F2A3194E091D00EBE5D2 /* SJDataServer-Info.plist */,
+				18C6F2A4194E091D00EBE5D2 /* InfoPlist.strings */,
+				18C6F2A7194E091D00EBE5D2 /* main.m */,
+				18C6F2A9194E091D00EBE5D2 /* SJDataServer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C6F2BA194E091D00EBE5D2 /* SJDataServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F2C0194E091D00EBE5D2 /* SJDataServerTests.m */,
+				18C6F2BB194E091D00EBE5D2 /* Supporting Files */,
+			);
+			path = SJDataServerTests;
+			sourceTree = "<group>";
+		};
+		18C6F2BB194E091D00EBE5D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F2BC194E091D00EBE5D2 /* SJDataServerTests-Info.plist */,
+				18C6F2BD194E091D00EBE5D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C6F297194E091D00EBE5D2 /* SJDataServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C6F2C4194E091D00EBE5D2 /* Build configuration list for PBXNativeTarget "SJDataServer" */;
+			buildPhases = (
+				18C6F294194E091D00EBE5D2 /* Sources */,
+				18C6F295194E091D00EBE5D2 /* Frameworks */,
+				18C6F296194E091D00EBE5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJDataServer;
+			productName = SJDataServer;
+			productReference = 18C6F298194E091D00EBE5D2 /* SJDataServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C6F2B2194E091D00EBE5D2 /* SJDataServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C6F2C7194E091D00EBE5D2 /* Build configuration list for PBXNativeTarget "SJDataServerTests" */;
+			buildPhases = (
+				18C6F2AF194E091D00EBE5D2 /* Sources */,
+				18C6F2B0194E091D00EBE5D2 /* Frameworks */,
+				18C6F2B1194E091D00EBE5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C6F2B9194E091D00EBE5D2 /* PBXTargetDependency */,
+			);
+			name = SJDataServerTests;
+			productName = SJDataServerTests;
+			productReference = 18C6F2B3194E091D00EBE5D2 /* SJDataServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C6F290194E091D00EBE5D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					18C6F2B2194E091D00EBE5D2 = {
+						TestTargetID = 18C6F297194E091D00EBE5D2;
+					};
+				};
+			};
+			buildConfigurationList = 18C6F293194E091D00EBE5D2 /* Build configuration list for PBXProject "SJDataServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18C6F28F194E091D00EBE5D2;
+			productRefGroup = 18C6F299194E091D00EBE5D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C6F297194E091D00EBE5D2 /* SJDataServer */,
+				18C6F2B2194E091D00EBE5D2 /* SJDataServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C6F296194E091D00EBE5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C6F2A6194E091D00EBE5D2 /* InfoPlist.strings in Resources */,
+				18C6F2AE194E091D00EBE5D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C6F2B1194E091D00EBE5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C6F2BF194E091D00EBE5D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C6F294194E091D00EBE5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C6F2AC194E091D00EBE5D2 /* AppDelegate.m in Sources */,
+				18C6F2A8194E091D00EBE5D2 /* main.m in Sources */,
+				18C6F2CC194E098700EBE5D2 /* SJRequest.m in Sources */,
+				18C6F2CF194E0C5700EBE5D2 /* SJDataServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C6F2AF194E091D00EBE5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C6F2C1194E091D00EBE5D2 /* SJDataServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C6F2B9194E091D00EBE5D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C6F297194E091D00EBE5D2 /* SJDataServer */;
+			targetProxy = 18C6F2B8194E091D00EBE5D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C6F2A4194E091D00EBE5D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C6F2A5194E091D00EBE5D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18C6F2BD194E091D00EBE5D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C6F2BE194E091D00EBE5D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C6F2C2194E091D00EBE5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C6F2C3194E091D00EBE5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C6F2C5194E091D00EBE5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SJDataServer/SJDataServer-Prefix.pch";
+				INFOPLIST_FILE = "SJDataServer/SJDataServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18C6F2C6194E091D00EBE5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SJDataServer/SJDataServer-Prefix.pch";
+				INFOPLIST_FILE = "SJDataServer/SJDataServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18C6F2C8194E091D00EBE5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SJDataServer.app/SJDataServer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SJDataServer/SJDataServer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SJDataServerTests/SJDataServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18C6F2C9194E091D00EBE5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SJDataServer.app/SJDataServer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SJDataServer/SJDataServer-Prefix.pch";
+				INFOPLIST_FILE = "SJDataServerTests/SJDataServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C6F293194E091D00EBE5D2 /* Build configuration list for PBXProject "SJDataServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C6F2C2194E091D00EBE5D2 /* Debug */,
+				18C6F2C3194E091D00EBE5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C6F2C4194E091D00EBE5D2 /* Build configuration list for PBXNativeTarget "SJDataServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C6F2C5194E091D00EBE5D2 /* Debug */,
+				18C6F2C6194E091D00EBE5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18C6F2C7194E091D00EBE5D2 /* Build configuration list for PBXNativeTarget "SJDataServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C6F2C8194E091D00EBE5D2 /* Debug */,
+				18C6F2C9194E091D00EBE5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C6F290194E091D00EBE5D2 /* Project object */;
+}
